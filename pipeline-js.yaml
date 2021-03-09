@@ -30,7 +30,7 @@ spec:
           script: |
             #!/bin/sh
             npm install
-        - image: node:12-slim
+        - image: node:12
           name: build-npm-test
           resources: {}
           script: |
