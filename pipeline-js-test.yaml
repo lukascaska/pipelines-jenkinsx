@@ -24,7 +24,7 @@ spec:
           script: |
             #!/usr/bin/env sh
             jx gitops variables
-        - image: node:12-slim
+        - image: node:12
           name: build-npm-install
           resources: {}
           script: |
